@@ -7,7 +7,7 @@
 #
 Name     : R-gridtext
 Version  : 0.1.5
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/gridtext_0.1.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/gridtext_0.1.5.tar.gz
 Summary  : Improved Text Rendering Support for 'Grid' Graphics
@@ -55,10 +55,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713891213
+export SOURCE_DATE_EPOCH=1713980207
 
 %install
-export SOURCE_DATE_EPOCH=1713891213
+export SOURCE_DATE_EPOCH=1713980207
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
